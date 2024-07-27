@@ -22,27 +22,27 @@ class HomeMediumPage extends StatelessWidget {
                   alignment: Alignment.topCenter,
                   child: Image.asset(
                     "assets/images/medium.png",
-                    key: const ValueKey("imageMedium"),
+                    key: const ValueKey("image_medium"),
                     width: 240,
                   ),
                 ),
               ),
               const Text(
                 "Join Medium.",
-                key: ValueKey("textTitle"),
+                key: ValueKey("text_title"),
                 style: TextStyle(
                   fontSize: 44,
                 ),
               ),
               const SizedBox(height: 40),
               const SocialButton(
-                key: ValueKey("signupGoogle"),
+                key: ValueKey("btn_signup_google"),
                 asset: "assets/images/google.png",
                 text: "Sign up with Google",
               ),
               const SizedBox(height: 15),
               const SocialButton(
-                key: ValueKey("signupEmail"),
+                key: ValueKey("btn_signup_email"),
                 asset: "assets/images/email.png",
                 text: "Sign up with Email",
               ),
@@ -53,7 +53,7 @@ class HomeMediumPage extends StatelessWidget {
                 children: const [
                   Expanded(
                     child: Divider(
-                      key: ValueKey("dividerLeft"),
+                      key: ValueKey("divider_left"),
                       thickness: 1,
                       color: Colors.black,
                     ),
@@ -67,7 +67,7 @@ class HomeMediumPage extends StatelessWidget {
                   ),
                   Expanded(
                     child: Divider(
-                      key: ValueKey("dividerRight"),
+                      key: ValueKey("divider_right"),
                       thickness: 1,
                       color: Colors.black,
                     ),
@@ -78,7 +78,7 @@ class HomeMediumPage extends StatelessWidget {
                 height: 40,
               ),
               const CircleSocialButton(
-                key: ValueKey("buttonFacebook"),
+                key: ValueKey("btn_facebook"),
                 asset: "assets/images/facebook.png",
               ),
               const SizedBox(
